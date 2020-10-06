@@ -63,7 +63,7 @@ p{
 }
 
 h4 {
-    font-family: 'Spartan', cursive;
+    font-family: 'Mansalva', cursive;
     padding-top: 2rem;
 }
 
@@ -95,3 +95,11 @@ h4 {
 .pb {
     padding-bottom: 2rem;
 }
+
+.storyboard-item {
+    width: 18%;
+    border: 3px solid #381D2A;
+    margin: 2%;
+    background-color: #381D2A
+}
+OB

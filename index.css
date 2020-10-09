@@ -1,19 +1,5 @@
 /* Put your style information here! */
 
-/* /\* comic-neue-regular - latin *\/ */
-/* @font-face { */
-/*   font-family: 'Comic Neue'; */
-/*   font-style: normal; */
-/*   font-weight: 400; */
-/*   src: url('./fonts/comic-neue-v2-latin-regular.eot'); /\* IE9 Compat Modes *\/ */
-/*   src: local('Comic Neue Regular'), local('ComicNeue-Regular'), */
-/*        url('./fonts/comic-neue-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /\* IE6-IE8 *\/ */
-/*        url('./fonts/comic-neue-v2-latin-regular.woff2') format('woff2'), /\* Super Modern Browsers *\/ */
-/*        url('./fonts/comic-neue-v2-latin-regular.woff') format('woff'), /\* Modern Browsers *\/ */
-/*        url('./fonts/comic-neue-v2-latin-regular.ttf') format('truetype'), /\* Safari, Android, iOS *\/ */
-/*        url('./fonts/comic-neue-v2-latin-regular.svg#ComicNeue') format('svg'); /\* Legacy iOS *\/ */
-/* } */
-
 /* spartan-regular - latin */
 @font-face {
   font-family: 'Spartan';
@@ -42,6 +28,19 @@
        url('./fonts/mansalva-v2-latin-regular.svg#Mansalva') format('svg'); /* Legacy iOS */
 }
 
+/* secular-one-regular - latin */
+@font-face {
+  font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/secular-one-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Secular One'), local('SecularOne-Regular'),
+       url('./fonts/secular-one-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/secular-one-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/secular-one-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/secular-one-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/secular-one-v5-latin-regular.svg#SecularOne') format('svg'); /* Legacy iOS */
+}
 
 body {
     font-family: 'Mansalva', cursive;
@@ -51,19 +50,26 @@ body {
 
 h1{
     font-family: 'Mansalva', cursive;
+    font-size: 50px;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-
-h2,
+li,
 h3,
 p{
-    font-family: 'Spartan', cursive;
+    font-family: 'Secular One', cursive;
+    font-size: 20px;
+}
+
+li > small{
+    font-family: 'Sans Serif', 'Verdana', serif;
+    font-weight: lighter;
+    color: white;
 }
 
 h4 {
-    font-family: 'Mansalva', cursive;
+    font-family: 'Secular One', serif;/* 'Open Sans', Ariel, Helvetica, sans-serif; */
     padding-top: 2rem;
 }
 
@@ -79,18 +85,9 @@ h4 {
     height: 100%;
     background-size: cover;
     overflow: hidden;
-
-    /* <span>Photo by <a href="https://unsplash.com/@lingchor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lingchor</a> on <a href="https://unsplash.com/s/photos/coffee-milk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
     /* <span>Photo by <a href="https://unsplash.com/@jovka?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jowita Jeleńska</a> on <a href="https://unsplash.com/s/photos/coffee-milk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
     
 }
-
-/* @media screen and (max-width: 1024px) { /\* Specific to this particular image *\/ */
-/*   .bg-cover { */
-/*     left: 50%; */
-/*     margin-left: -512px;   /\* 50% *\/ */
-/*   } */
-/* } */
 
 .pb {
     padding-bottom: 2rem;
@@ -102,4 +99,4 @@ h4 {
     margin: 2%;
     background-color: #381D2A
 }
-OB
+

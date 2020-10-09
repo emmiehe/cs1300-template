@@ -78,8 +78,8 @@ h4 {
 }
 
 .storyboard-item {
-    width: 18%;
-    border: 3px solid #381D2A;
+    width: 360px;
+    /* border: 5% solid #381D2A; */
     margin: 2%;
     background-color: #381D2A
 }

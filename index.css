@@ -1,19 +1,5 @@
 /* Put your style information here! */
 
-/* spartan-regular - latin */
-@font-face {
-  font-family: 'Spartan';
-  font-style: normal;
-  font-weight: 400;
-  src: url('./fonts/spartan-v2-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('./fonts/spartan-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/spartan-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/spartan-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/spartan-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('./fonts/spartan-v2-latin-regular.svg#Spartan') format('svg'); /* Legacy iOS */
-}
-
 /* mansalva-regular - latin */
 @font-face {
   font-family: 'Mansalva';
@@ -85,8 +71,6 @@ h4 {
     height: 100%;
     background-size: cover;
     overflow: hidden;
-    /* <span>Photo by <a href="https://unsplash.com/@jovka?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jowita Jeleńska</a> on <a href="https://unsplash.com/s/photos/coffee-milk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
-    
 }
 
 .pb {

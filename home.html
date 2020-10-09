@@ -7,13 +7,13 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="index.css">
     <title>Personas & Storyboard</title>
   </head>
 
   <body>
     <!-- TODO: put your HTML code here! -->
+    <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #381D2A;">
       <div class="container-fluid">
 	<a class="navbar-brand" href="#">Home</a>
@@ -28,25 +28,24 @@
       </div>
     </nav>
 
-    <div id="logo" class="container-fluid text-center" style="background-color: #FCDE9C;">
+    <!-- Including coffee machine logo here -->
+    <div id="logo" class="container-fluid text-center pb" style="background-color: #FCDE9C;">
       <img src="img/logo_light.png" alt="Coffee machine logo titled 'Personas and Storyboarding'." style="width: 30%;">
+      <h2>Many people start their day with a cup of coffee.</h2>
+      <h2>I always wonder how people interact with/feel about this interface.</h2>
     </div>
 
+    <!-- Sketch and description -->
     <div id="interface" class="d-flex flex-column text-center justify-content-center align-items-center pb">
       <div style="color: #FCDE9C;">
-	<h1>Interface Sketch & Key Components</h1>
-	<!-- <h3>The interface I choose is the coffee maker in a common area. Coffee makers brew coffee effortlessly and save my mornings.</h3> -->
-	
+	<!-- <h1>Interface Sketch & Key Components</h1> -->
+	<h1>Sketch of a "basic" coffee maker</h1>
       </div>
+      
       <div class="d-flex flex-row justify-content-around align-items-center flex-sm-wrap">
-	<!-- <div class="card text-white d-none d-sm-block" style="width: 50%; background-color: #381D2A;"> -->
-	<!--   <div class="card-body"> -->
-	<!--     <img class="card-img" src="img/coffee_maker_sketch.jpg" alt="Card image cap"> -->
-	<!--   </div> -->
-	<!-- </div> -->
 	<img class="d-none d-sm-block" style="width:50%;" src="img/coffee_maker_sketch.jpg" alt="A sketch of a coffee maker with annotations.">
 	<div class="text-left" style="color: #FCDE9C; font-size: 40px;">
-	  <h2>Coffee Maker</h2>
+	  <h2>Key Components</h2>
 	  <ul>
 	    <li>Top lid:
 	      <small>access to the filter cup and the water container</small>
@@ -67,7 +66,6 @@
 		<li>Handle:
 		  <small>being held by the user</small>
 		</li>
-		
 	      </ul>
 	    </li>
 	    <li>Warming plate: <small>keeping coffee warm</small>
@@ -80,111 +78,103 @@
 	  </ul>
 	</div>
       </div>
-      <!-- <img src="img/coffee_maker_sketch.jpg" alt="A sketch of a coffee maker with annotations." class="align-self-center" style="width:50%; margin: 5%;"> -->
       
     </div>
 
-    <!-- <div id="interface" class="d-flex flex-column bg-cover justify-content-center align-items-center text-center"> -->
-    <!-- 	<h1>Coffee Maker</h1> -->
-    <!-- 	<h2>The interface I choose is the coffee maker in a common area. Coffee makers brew coffee effortlessly and save our mornings. How its key components function.</h2> -->
-    <!-- 	<img src="img/coffee_maker_sketch.jpg" alt="A sketch of a coffee maker with annotations." style="width:50%"> -->
-    <!-- </div> -->
-    
+    <!-- observations, interviews -->
     <div id="interview" class="d-flex flex-column justify-content-center align-items-center pb" style="background-color: #C4D6B0">
-      <h1>Contextual Inquiry</h1>
-
-      <div class="d-flex flex-row justify-content-around align-items-center flex-sm-wrap bp">
-	<img style="width:25%; transform: rotate(-15deg);" src="img/a.png" alt="">
-	<img style="width:25%; transform: rotate(5deg);" src="img/b.png" alt="">
-	<img style="width:25%; transform: rotate(10deg);" src="img/c.png" alt="">
-      </div>
-      
-      <!-- <p> -->
-      <!-- 	User A: asking if tap water is ok, asking how much coffee ground should go into the filter, carefully examining the max line indicated by the water container; asking if it is normal to have the "loud" noise when the coffee is brewing; not happy about the fact that the water dripples down a little bit along the way; drying up the outside of the kettle before turning on, ask if need to turn off the switch -->
-      <!-- 	User B: using the coffee holder to get tap water, and then poured the water in the container quickly, weighed the filter in their hand, added a little bit more, and then said "ah this might be too much", closed the lid and went away, came back after the coffee was brewed, only poured half of one person's serving, left the switch on and went away -->
-      <!-- 	User C: having coffee around noon, looked tired, poured in a generous amount of ground, then sit next to the table looking at the floor, added half and half, turned the switch off, wiped table and left -->
-	<!-- </p> -->
+      <h1>How do my users interact with it?</h1>
+      <h2>I observed and interviewed three people during and after they used the coffee maker.</h2>
+      <h2 class="pb">Some of them use the coffee maker every day while some of them don't use it often.</h2>
       <br>
-      <h1>Similarity / Difference:</h1>
-	<ul style="list-style-position: inside;">
-	  <li>User A and user C both seem to care about the cleanness of the coffee maker/surronding area.</li>
-	  <li>User B and user C both seem to know pretty well about the coffee maker (also how much coffee they want), while user 1 seems to be less familiar with it.</li>
-	  <li>User A pays more attention to the coffee maker than user B or user C does.</li>
-	</ul>
-      
+      <!-- <h1>Contextual Inquiry</h1> -->
+      <div class="d-flex flex-row justify-content-around align-items-center flex-sm-wrap pb">
+	<img style="width:25%; transform: rotate(-15deg);" src="img/a.png" alt="User A: asking if tap water is ok, asking how much coffee ground should go into the filter, carefully examining the max line indicated by the water container; asking if it is normal to have the 'loud' noise when the coffee is brewing; not happy about the fact that the water dripples down a little bit along the way; drying up the outside of the kettle before turning on, ask if need to turn off the switch">
+	<img style="width:25%; transform: rotate(5deg);" src="img/b.png" alt="User B: using the coffee holder to get tap water, and then poured the water in the container quickly, weighed the filter in their hand, added a little bit more, and then said "ah this might be too much", closed the lid and went away, came back after the coffee was brewed, only poured half of one person's serving, left the switch on and went away">
+	<img style="width:25%; transform: rotate(10deg);" src="img/c.png" alt="User C: having coffee around noon, looked tired, poured in a generous amount of ground, then sit next to the table looking at the floor, added half and half, turned the switch off, wiped table and left">
+      </div>
       <!-- <h4> -->
       <!-- 	Make sure you note general patterns in their interactions with the interface. How did the users react while using the interface? How does it differ from other users? -->
-      <!-- </h4> -->
-      <div class="d-flex flex-row text-center justify-content-around align-items-center flex-sm-wrap bp">
+	<!-- </h4> -->
+      
+      <h1>Some patterns:</h1>
+	<ul style="list-style-position: inside;">
+	  <li>User A and user C both did some cleaning to the coffee maker/surrounding area.</li>
+	  <li>User B and user C poured in coffee grounds fastly, while user 1 hesitated.</li>
+	  <li>User B and user C did not focus on the coffee maker anymore after they flipped the switch. </li> 
+	  <li>User A pays more attention to the coffee maker than user B or user C does.</li>
+	</ul>
+
+      <div class="d-flex flex-row text-center justify-content-around align-items-center flex-sm-wrap pb">
 	
 	<!-- <p> -->
-	<!--   Prepare some questions for users regarding their experiences with the interface. Have questions prepared to get insight about their expectations, experience, motives, and challenges using the interface (steer the user to talk about the interface, not the product.  -->
+	  <!--   Prepare some questions for users regarding their experiences with the interface. Have questions prepared to get insight about their expectations, experience, motives, and challenges using the interface (steer the user to talk about the interface, not the product. List your questions in a numbered list and summarize the responses of your interviewed users. Be sure to highlight the main points or important patterns. Your summary should be both concise and informative. -->
 	<!-- </p> -->
 
 	<div class="text-right">
-	<h1>Prepared Questions</h1>
+	<h1>Questions/</h1>
 	<ul style="list-style-position: inside;">
-	  <li>What do you expect a coffee maker do?</li>
+	  <li>What do you expect a coffee maker to do?</li>
 	  <li>How often do you use a coffee maker?</li>
 	  <li>Do you think it is easy to use?</li>
 	  <li>What do you like about it?</li>
 	  <li>What is something you find inconvenient?</li>
+	  <li>Do you think there should be a sound notificaiton when brewing is done?</li>
 	  <li>Would you consider investing in a fancier coffee machine?</li>
-	  <li>If this coffee maker is broken will you get the same one again?</li>
+	  <li>If this coffee maker is broken, will you get the same one again?</li>
 	  <li>What is an ideal version of a coffee machine for you?</li>
 	</ul>
 	</div>
-
-      
-      <!-- <p> -->
-      <!-- 	user A mentioned it's not easy to pour water from the coffee holder to the container on the back, also the noise is kind of loud - if they brew it early in the morning it might wake up roommates. they also mentioned brewing tea is much easier with just boiled water. concerned about the metal mesh not being cleaned regularly, was surprised by the hissing sound after rinsing out the coffee and putting the holder back, unclear when it is done -->
-
-      <!-- 	is it necessary to have an alarm feature? No cos it will disturb other people, and it is really not necessary, it would be nice to have a timer or something, but it's fine as it is now -->
-
-      <!-- 	It seems new users tend to notice more details about the coffee maker, like when I asked what is the max volume of the container, the novel user answered it accurately, while the other said they didn't pay attention or "the coffee holder" holds the proper amount of water, there is no need to read - the experienced users did not seem to check the waterline at all. -->
-      <!-- 	one user just put the filter directly on the counter while the other user put it carefully on a paper towel -->
-
-
-      <!-- 	persona should have two types, casual user - alternating between tea and coffee, not relying on caffeine, wants better quality and experience, fancy features, innovative experience, clean, tidiness, faster, flavor -->
-	
-      <!-- 	experienced user, don't care much about the quality, wants it to do its job - efficiency - don't care for extra features, thinks the simple the better, pay less attention to the interface - it should be just easy to use without much consideration - mention that if the coffee machine is fancy then they have to match with the capsule pods and it's just too much work, it's fine if it needs a bit work since they can do other stuff, faster would be nice but not strictly necessary -->
-      <!-- </p> -->
 	
 	<div class="text-left">    
-	<h1>Summarized answers (A|B|C)</h1>
+	<h1 class"text-right">Answers (A|B|C)</h1>
 	<ul>
-	  <li>Get hot water or coffee | Make breakfast | Brew coffee</li>
+	  <li>Make hot water or coffee | Make breakfast | Brew coffee</li>
 	  <li>Never used it to make coffee | Pretty much everyday | Most days</li>
-	  <li>It's not hard to use | Sure | Yes </li>
+	  <li>It's not as easy as I thought | Sure | Yes </li>
 	  <li>The design is very compact | Makes coffee without me doing much | *shrug* it works </li>
 	  <li>A lot of steps to make it right | Nothing | It could be faster, maybe like those pod/capsule ones </li>
-	  <li>Yes for the experience | Maybe | Yea I want to try k-cup or nespresso </li>
+	  <li>No, but a visual indicator could be good | Not necessary | No </li>
+	  <li>Yes for new experience | Maybe | Yea I want to try K-cup or Nespresso </li>
 	  <li>No | Probably | I don't know, maybe a change</li>
 	  <li>Easy to use, quieter | This one works for me | Clean, fast, visually pleasing, not too much work</li>
 	</ul>
-	</div>
-
-      <!-- <p> -->
-      <!-- 	List your questions in a numbered list and summarize the responses of your interviewed users. Be sure to highlight the main points or important patterns. Your summary should be both concise and informative. -->
-      <!-- </p> -->
-
+	</div>	
       </div>
+
+      <h1>Some notes:</h1>
+	<ul style="list-style-position: inside;">
+	  <li>User A mentioned several issues while user B and C found them to be trivial:
+	    <ul>
+	      <li>it's not easy to pour water from the coffee holder to the container </li>
+	      <li>the noise is somewhat loud </li>
+	      <li>it's not clear when it is done</li>
+	    </ul>
+	  <li>User A and user C said they would clean the filter thoroughly </li>
+	  <li>None of the users wanted a sound indicator, but user A mentioned that a timer/visual indicator could be good.</li>
+	  <li>User A noticed more details about the coffee maker:
+	    <ul>
+	      <li>when I asked about the max volume of the container, user A answered it accurately</li>
+	      <li>the others said they didn't pay attention or "the coffee holder" holds the proper amount of water</li>
+	      </ul>
+	  <li>User B said they didn't care for fancy features, "the simpler the better".</li>
+	</ul>
     </div>
 
-    
-    <div id="personas" class="d-flex flex-column justify-content-center align-items-center bp" style="background-color: #FFA552">
+    <!-- empathy map -->
+    <div id="personas" class="d-flex flex-column justify-content-center align-items-center pb" style="background-color: #FFA552">
       
-      <h1>Empathy Map and Personas - understanding my users</h1>
+      <h1>Empathy Map and Personas - understanding the users</h1>
 
       <div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
-	<img style="width:45%;" src="img/nancy.jpg" alt="">
-	<img style="width:45%;" src="img/bruce.jpg" alt="">
+	<img style="width:45%;" src="img/nancy.jpg" alt="empathy map of neat nancy.">
+	<img style="width:45%;" src="img/bruce.jpg" alt="empathy map of busy bruce.">
       </div>
-      <br>
     </div>    
 
+    <!-- storyboard -->
     <div id="storyboard" class="d-flex flex-column justify-content-center align-items-center bp bg-cover" style="background-color: #BA5624">
-      <h1>Storyboard (Busy Bruce)</h1>
+      <h1>Storyboard - A morning in the life of Busy Bruce</h1>
       <!-- <p> -->
       <!-- 	Your task is to create a storyboard for one of the personas that you created. See the below figure or  this article for an example of a storyboard, as well as the Understanding lecture. Storyboard your persona’s user journey from start to end. Your storyboards should reflect the goals of your persona and include all necessary steps for using an interface. The entire user journey should be depicted. Under each frame, write a 1 sentence description of what’s happening. -->
       <!-- </p> -->
@@ -193,104 +183,92 @@
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0001.jpg" alt="Card image cap">
+	    <img class="card-img" src="img/frame-0001.jpg" alt="Card image cap: Bruce works as a software engineer - due to COVID-19 he has been working from home since March.">
 	    <h4 class="card-text">Bruce works as a software engineer - due to COVID-19 he has been working from home since March.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0002.jpg" alt="Card image cap">
-	    <h4 class="card-text">His old coffee maker is the first thing he goes to in the morning - it doesn’t even have the time setting feature, so he has to get out of bed in order to get his cup of joe.</h4>
+	    <img class="card-img" src="img/frame-0002.jpg" alt="Card image cap: His old coffee maker is the first thing he goes to in the morning - it doesn’t even have the time setting feature, so he has to get out of bed to get his cup of joe.">
+	    <h4 class="card-text">His old coffee maker is the first thing he goes to in the morning - it doesn’t even have the time setting feature, so he has to get out of bed to get his cup of joe.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0003.jpg" alt="Card image cap">
+	    <img class="card-img" src="img/frame-0003.jpg" alt="Card image cap: This morning he wakes up 15 min before a stand-up meeting. ">
 	    <h4 class="card-text">This morning he wakes up 15 min before a stand-up meeting. </h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0004.jpg" alt="Card image cap">
-	    <h4 class="card-text">He rushes to the kitchen and lifts up the top lid of the coffee maker, pulls out the filter cup, and dumps yesterday’s coffee grounds into the trash.</h4>
+	    <img class="card-img" src="img/frame-0004.jpg" alt="Card image cap: He rushes to the kitchen and lifts the top lid of the coffee maker, pulls out the filter cup, and dumps yesterday’s coffee grounds into the trash.">
+	    <h4 class="card-text">He rushes to the kitchen and lifts the top lid of the coffee maker, pulls out the filter cup, and dumps yesterday’s coffee grounds into the trash.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0005.jpg" alt="Card image cap">
+	    <img class="card-img" src="img/frame-0005.jpg" alt="Card image cap: After a quick rinse, he pours a generous amount of coffee into the filter cup,">
 	    <h4 class="card-text">After a quick rinse, he pours a generous amount of coffee into the filter cup,</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0006.jpg" alt="Card image cap">
-	    <h4 class="card-text">Quickly filling the coffee holder with tap water, he pours the water into the container. Flips the switch! He runs back to his desk to check slack on his work laptop.</h4>
+	    <img class="card-img" src="img/frame-0006.jpg" alt="Card image cap: Quickly filling the coffee holder with tap water, he pours the water into the container. Flips the switch! He runs back to his desk to check Slack messages on his work laptop.">
+	    <h4 class="card-text">Quickly filling the coffee holder with tap water, he pours the water into the container. Flips the switch! He runs back to his desk to check Slack messages on his work laptop.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0007.jpg" alt="Card image cap">
-	    <h4 class="card-text">A customer’s server is down and his inbox is flooded with messages - he starts looking into the server log. 20 min later, the issue is resolved and he goes on to attend his meeting. </h4>
+	    <img class="card-img" src="img/frame-0007.jpg" alt="Card image cap: A customer’s server is down and his inbox is flooded with messages - he starts looking into the server log. 20 min later, the issue is resolved. He goes on to attend his meeting.">
+	    <h4 class="card-text">A customer’s server is down and his inbox is flooded with messages - he starts looking into the server log. 20 min later, the issue is resolved. He goes on to attend his meeting.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0008.jpg" alt="Card image cap">
-	    <h4 class="card-text">"Oh coffee!" Finally he remembers his coffee, and he goes back to the kitchen.</h4>
+	    <img class="card-img" src="img/frame-0008.jpg" alt="Card image cap: "Oh, coffee!" Finally he remembers his coffee, and he goes back to the kitchen.">
+	    <h4 class="card-text">"Oh, coffee!" Finally he remembers his coffee, and he goes back to the kitchen.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0009.jpg" alt="Card image cap">
+	    <img class="card-img" src="img/frame-0009.jpg" alt="Card image cap: Thanks to his coffee maker’s warming plate, his coffee is still hot.">
 	    <h4 class="card-text">Thanks to his coffee maker’s warming plate, his coffee is still hot.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0010.jpg" alt="Card image cap">
+	    <img class="card-img" src="img/frame-0010.jpg" alt="Card image cap: He pours new coffee into his mug.">
 	    <h4 class="card-text">He pours new coffee into his mug.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0011.jpg" alt="Card image cap">
-	    <h4 class="card-text">He turns of the switch and goes back to his desk.</h4>
+	    <img class="card-img" src="img/frame-0011.jpg" alt="Card image cap: He turns off the switch and goes back to his desk.">
+	    <h4 class="card-text">He turns off the switch and goes back to his desk.</h4>
 	  </div>
 	</div>
 
 	<div class="card text-white storyboard-item">
 	  <div class="card-body">
-	    <img class="card-img" src="img/frame-0001.jpg" alt="Card image cap">
-	    <h4 class="card-text">Another day saved by his good ole coffee maker!</h4>
+	    <img class="card-img" src="img/frame-0001.jpg" alt="Card image cap: Another day is saved by his good ole coffee maker!">
+	    <h4 class="card-text">Another day is saved by his good ole coffee maker!</h4>
 	  </div>
 	</div>
-
-
-	<!-- <img class="storyboard-item" src="img/frame-0001.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0002.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0003.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0004.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0005.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0006.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0007.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0008.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0009.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0010.jpg" alt=""> -->
-	<!-- <img class="storyboard-item" src="img/frame-0011.jpg" alt=""> -->
       </div>
 
-
+      <span>Background photo by <a href="https://unsplash.com/@miguel_pembo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Miguel Andrade</a> on <a href="https://unsplash.com/s/photos/coffee-splash?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
     </div>
+    
 
   </body>
 </html>

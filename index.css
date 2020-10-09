@@ -84,3 +84,19 @@ h4 {
     background-color: #381D2A
 }
 
+span {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.user-a {
+    color: #b89227;
+}
+
+.user-b {
+    color: #BA5624;
+}
+
+.user-c {
+    color: #800000;
+}

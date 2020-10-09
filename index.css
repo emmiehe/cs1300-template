@@ -77,6 +77,14 @@ h4 {
     padding-bottom: 2rem;
 }
 
+.card-img {
+    max-height: 400px;
+}
+
+.card-text {
+    margin-top: 1rem; 
+}
+
 .storyboard-item {
     width: 360px;
     /* border: 5% solid #381D2A; */
